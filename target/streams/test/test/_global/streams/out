@@ -1,0 +1,158 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 20 initial tasks for 20 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.kip500.PartitionRecordTest, sbt.ForkMain$SubclassFingerscan@2c778183, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPartitionRecordTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should serialize and deserialize partition record[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.ProducerConsumerTest, sbt.ForkMain$SubclassFingerscan@136b3d14, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mProducerConsumerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce and consumer messages from five broker cluster[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.ServerTest, sbt.ForkMain$SubclassFingerscan@1c9dab53, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mServerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should register itself to zookeeper on startup[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should elect controller on startup[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.kip500.LeaderElectionTest, sbt.ForkMain$SubclassFingerscan@25fe5778, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLeaderElectionTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should elect server with highest id as a leader when logs are empty[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.SimpleKafkaApiTest, sbt.ForkMain$SubclassFingerscan@5267e1e5, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleKafkaApiTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should create leader and follower replicas[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Update metadata cache[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get topic metadata for given topic[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle produce request[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- multiple produce requests should increment offset[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get no messages when nothing is produced on the topic partition[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should consume messages from start offset[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 7 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.ControllerTest, sbt.ForkMain$SubclassFingerscan@5aacaa2f, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mControllerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should register for broker changes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Should elect first server as controller and get all live brokers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Should elect first server as controller and register for topic changes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Should not register for topic changes if controller already exists[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 4 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.CreateTopicCommandTest, sbt.ForkMain$SubclassFingerscan@21b5bd9a, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreateTopicCommandTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should assign set of replicas for partitions of topic[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should assign partitions assigned to [0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.ControllerZookeeperTest, sbt.ForkMain$SubclassFingerscan@5e73772b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mControllerZookeeperTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should send LeaderAndFollower requests to all leader and follower brokers for given topicandpartition[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should send UpdateMetadata requests to all brokers[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.ProducerConsumerKIP500Test, sbt.ForkMain$SubclassFingerscan@58f60380, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mProducerConsumerKIP500Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce and consumer messages from five broker cluster[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.TopicChangeHandlerTest, sbt.ForkMain$SubclassFingerscan@3352ed50, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTopicChangeHandlerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should register for topic change and get replica assignments[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.kip500.ControllerStateTest, sbt.ForkMain$SubclassFingerscan@3f11e723, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mControllerStateTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should create new session when client is registered[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- client id should be the one passed by client in RegisterClient request[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.kip500.Kip631ControllerTest, sbt.ForkMain$SubclassFingerscan@454c712a, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKip631ControllerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should register new broker with broker heartbeat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should detect duplicate broker registration[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should commit FenceBroker record when broker lease expires[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- create topic should commit topicrecord and partitionrecord[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 4 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.mykafka.PartitionTest, sbt.ForkMain$SubclassFingerscan@3ff6ee1b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPartitionTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should append messages to file and return offset[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should append append to the end of the file even if read before write[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.mykafka.MyZookeeperClientTest, sbt.ForkMain$SubclassFingerscan@115b0a78, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMyZookeeperClientTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should register brokers with zookeeper[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get notified when broker is registered[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.kip500.ServerTest, sbt.ForkMain$SubclassFingerscan@44214ed1, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mServerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should initialize to LOOKING state[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should start leader election in LOOKING state[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should vote to self at startup[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.PartitionReadWriteTest, sbt.ForkMain$SubclassFingerscan@563698cf, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPartitionReadWriteTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- update highwatermark[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should write and read messages in partition[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should read messages from specific offset[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.BrokerChangeListenerTest, sbt.ForkMain$SubclassFingerscan@32e41736, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBrokerChangeListenerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add new broker information to controller on change[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.ControllerZookeeperFailureTests, sbt.ForkMain$SubclassFingerscan@15c7c00b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mControllerZookeeperFailureTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should elect new broker as leader once controller shuts down *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  org.I0Itec.zkclient.exception.ZkNodeExistsException: org.apache.zookeeper.KeeperException$NodeExistsException: KeeperErrorCode = NodeExists for /brokers/ids/3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.I0Itec.zkclient.exception.ZkException.create(ZkException.java:55)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.I0Itec.zkclient.ZkClient.retryUntilConnected(ZkClient.java:1001)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.I0Itec.zkclient.ZkClient.create(ZkClient.java:528)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.I0Itec.zkclient.ZkClient.create(ZkClient.java:499)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.I0Itec.zkclient.ZkClient.createEphemeral(ZkClient.java:552)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.dist.simplekafka.ZookeeperClientImpl.createEphemeralPath(ZookeeperClient.scala:129)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.dist.simplekafka.ZookeeperClientImpl.registerBroker(ZookeeperClient.scala:112)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.dist.simplekafka.ZookeeperClientImpl.registerSelf(ZookeeperClient.scala:89)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.dist.simplekafka.Server.startup(Server.scala:90)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.dist.simplekafka.ControllerZookeeperFailureTests.$anonfun$new$1(ControllerZookeeperFailureTests.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Cause: org.apache.zookeeper.KeeperException$NodeExistsException: KeeperErrorCode = NodeExists for /brokers/ids/3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.zookeeper.KeeperException.create(KeeperException.java:126)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.zookeeper.KeeperException.create(KeeperException.java:54)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.zookeeper.ZooKeeper.create(ZooKeeper.java:1538)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.I0Itec.zkclient.ZkConnection.create(ZkConnection.java:100)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.I0Itec.zkclient.ZkClient$3.call(ZkClient.java:531)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.I0Itec.zkclient.ZkClient$3.call(ZkClient.java:528)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.I0Itec.zkclient.ZkClient.retryUntilConnected(ZkClient.java:991)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.I0Itec.zkclient.ZkClient.create(ZkClient.java:528)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.I0Itec.zkclient.ZkClient.create(ZkClient.java:499)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.I0Itec.zkclient.ZkClient.createEphemeral(ZkClient.java:552)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.PartitionConcurrentReadWriteTest, sbt.ForkMain$SubclassFingerscan@792cc48a, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPartitionConcurrentReadWriteTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Concurrent write to partition should be serialized[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.dist.simplekafka.CreateTopicCommandZookeeperTest, sbt.ForkMain$SubclassFingerscan@73fc9175, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreateTopicCommandZookeeperTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should create persistent path for topic with topic partition assignments in zookeeper[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 21 seconds, 877 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 42[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 20, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 41, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.kip500.PartitionRecordTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.ProducerConsumerTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.ServerTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.kip500.LeaderElectionTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.SimpleKafkaApiTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.ControllerTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.CreateTopicCommandTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.ControllerZookeeperTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.ProducerConsumerKIP500Test[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.TopicChangeHandlerTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.kip500.ControllerStateTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.kip500.Kip631ControllerTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.mykafka.PartitionTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.mykafka.MyZookeeperClientTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.kip500.ServerTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.PartitionReadWriteTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.BrokerChangeListenerTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.PartitionConcurrentReadWriteTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.dist.simplekafka.CreateTopicCommandZookeeperTest[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	com.dist.simplekafka.ControllerZookeeperFailureTests[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

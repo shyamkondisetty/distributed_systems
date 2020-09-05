@@ -1,0 +1,232 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/Partition.scala:61:99: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `addFetcher`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def addFetcher(topicAndPartition: TopicAndPartition, initialOffset: Long, leaderBroker: Broker) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/Partition.scala:97:81: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `addPartition`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def addPartition(topicAndPartition: TopicAndPartition, initialOffset: Long) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/Partition.scala:114:44: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        consumeResponse.messages.foreach(m ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/Partition.scala:139:33: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  s.runForeach({ case (k, v, p) ⇒[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/Partition.scala:162:23: Lowercase el for long is not recommended because it is easy to confuse with numeral 1; use uppercase L instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  var highWaterMark = 0l;[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/Partition.scala:178:28: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    offsets.foreach(offset ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SequenceFile.scala:9:81: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def getAllOffSetsFrom(offset: Long) = offsetIndexes.keySet().asScala.filter(i ⇒ i >= offset)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/Server.scala:97:36: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  class FetchMetadataTask(action:()⇒Unit) extends Runnable {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleConsumer.scala:16:30: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    topicMetadata.foreach(tp ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleConsumer.scala:23:42: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      consumeResponse.messages.foreach(m ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleKafkaApi.scala:30:42: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case RequestKeys.UpdateMetadataKey ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleKafkaApi.scala:33:68: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        updateMetadataRequest.leaderReplicas.foreach(leaderReplica ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleKafkaApi.scala:38:39: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case RequestKeys.GetMetadataKey ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleKafkaApi.scala:40:88: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        val topicAndPartitions = leaderCache.keySet().asScala.filter(topicAndPartition ⇒ topicAndPartition.topic == topicMetadataRequest.topicName)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleKafkaApi.scala:41:115: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        val partitionInfo: Map[TopicAndPartition, PartitionInfo] = topicAndPartitions.map((tp: TopicAndPartition) ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleKafkaApi.scala:47:35: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case RequestKeys.ProduceKey ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleKafkaApi.scala:53:33: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case RequestKeys.FetchKey ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleKafkaApi.scala:68:60: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        val consumeResponse = ConsumeResponse(rows.map(row ⇒ (row.key, row.value)).toMap)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleKafkaApi.scala:71:14: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case _ ⇒ RequestOrResponse(0, "Unknown Request", request.correlationId)[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleKafkaApi.scala:76:46: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    leaderReplicas.foreach(leaderAndReplicas ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleSocketServer.scala:39:17: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `startup`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def startup() {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/SimpleSocketServer.scala:76:86: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        new SocketIO(socket, classOf[RequestOrResponse]).readHandleRespond((request) ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/ZkController.scala:116:47: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val replicaBrokers = p.brokerIds.map(id ⇒ getBroker(id))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/ZkController.scala:123:24: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    liveBrokers.find(b ⇒ b.id == brokerId).get[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/ZkController.scala:128:34: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      liveBrokers.foreach(broker ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/ZkController.scala:140:34: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    leaderAndReplicas.foreach(lr ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/ZkController.scala:141:56: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      lr.partitionStateInfo.allReplicas.foreach(broker ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/ZkController.scala:152:17: The unicode arrow `←` is deprecated, use `<-` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    for (broker ← brokers) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/ZookeeperClient.scala:18:17: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `shutdown`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def shutdown()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/ZookeeperClient.scala:20:97: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `setPartitionReplicasForTopic`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def setPartitionReplicasForTopic(topicName: String, partitionReplicas: Set[PartitionReplicas])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/ZookeeperClient.scala:22:96: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `setPartitionLeaderForTopic`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def setPartitionLeaderForTopic(topicName: String, leaderAndReplicas: List[LeaderAndReplicas])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/ZookeeperClient.scala:42:21: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `registerSelf`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def registerSelf()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/ZookeeperClient.scala:44:46: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `tryCreatingControllerPath`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def tryCreatingControllerPath(data: String)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/ZookeeperClient.scala:165:48: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `handleStateChanged`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def handleStateChanged(state: KeeperState) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/ZookeeperClient.scala:170:28: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `handleNewSession`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def handleNewSession() {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/common/Logging.scala:26:37: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `swallowTrace`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def swallowTrace(action: => Unit) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/common/Logging.scala:42:37: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `swallowDebug`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def swallowDebug(action: => Unit) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/common/Logging.scala:58:36: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `swallowInfo`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def swallowInfo(action: => Unit) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/common/Logging.scala:71:36: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `swallowWarn`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def swallowWarn(action: => Unit) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/common/Logging.scala:85:37: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `swallowError`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def swallowError(action: => Unit) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Consensus.scala:36:14: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `start`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def start()[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Consensus.scala:38:17: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `shutdown`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def shutdown()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Consensus.scala:47:23: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `onBecomingLeader`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def onBecomingLeader[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Consensus.scala:49:25: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `onBecomingFollower`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def onBecomingFollower[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Consensus.scala:121:27: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    entries.foreach(entry ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Consensus.scala:172:27: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case e: Exception ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Consensus.scala:214:49: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val followerProxies = config.getPeers().map(p ⇒ PeerProxy(p, 0, sendHeartBeat))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Consensus.scala:250:46: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val matchIndexes = followerProxies.map(p ⇒ p.matchIndex)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Consensus.scala:260:30: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    followerProxies.map(peer ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/ControllerState.scala:26:23: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    entries.map(entry ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/HeartBeatScheduler.scala:7:30: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass HeartBeatTask(action:()⇒Unit) extends Runnable with Logging {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/HeartBeatScheduler.scala:13:35: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass HeartBeatScheduler(action:()⇒Unit) extends Logging {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/LeaderElector.scala:38:24: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    peers.foreach(peer ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Logging.scala:25:37: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `swallowTrace`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def swallowTrace(action: => Unit) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Logging.scala:41:37: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `swallowDebug`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def swallowDebug(action: => Unit) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Logging.scala:57:36: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `swallowInfo`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def swallowInfo(action: => Unit) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Logging.scala:70:36: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `swallowWarn`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def swallowWarn(action: => Unit) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Logging.scala:84:37: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `swallowError`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def swallowError(action: => Unit) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Utils.scala:115:54: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `uncaughtException`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m      def uncaughtException(t: Thread, e: Throwable) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Utils.scala:132:54: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `uncaughtException`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m      def uncaughtException(t: Thread, e: Throwable) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/Utils.scala:206:22: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `rm`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def rm(file: File) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/WriteAheadLog.scala:38:31: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    filePosition.map(position ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/election/Elector.scala:10:51: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val max: (Vote, Int) = voteCounts.maxBy(tuple ⇒ tuple._2)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/election/Elector.scala:12:28: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    votes.values.foreach(v ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/network/Config.scala:11:25: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    peerConfig.filter(p ⇒ p.id != serverId)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/network/Peer.scala:9:91: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0mcase class PeerProxy(peerInfo: Peer, var matchIndex: Long = 0, heartbeatSender: PeerProxy ⇒ Unit) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/network/TcpListener.scala:38:75: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass TcpListener(localEp: InetAddressAndPort, handler: RequestOrResponse ⇒ Future[RequestOrResponse]) extends Thread with Logging {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/network/TcpListener.scala:59:57: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        socketIo.readHandleWithSocket((request, socket) ⇒ { //Dont close socket after read. It will be closed after write[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/util/AdminUtils.scala:62:153: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `createOrUpdateTopicPartitionAssignmentPathInZK`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def createOrUpdateTopicPartitionAssignmentPathInZK(topic: String, replicaAssignment: Map[Int, Seq[Int]], zkClient: ZkClient, update: Boolean = false) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/util/Time.scala:12:22: procedure syntax is deprecated: instead, add `: Unit` to explicitly declare `sleep`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def sleep(ms: Long)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/util/Utils.scala:117:54: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `uncaughtException`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m      def uncaughtException(t: Thread, e: Throwable) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/util/Utils.scala:134:54: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `uncaughtException`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m      def uncaughtException(t: Thread, e: Throwable) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/util/Utils.scala:208:22: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `rm`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def rm(file: File) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/util/ZkUtils.scala:106:68: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `makeSurePersistentPathExists`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def makeSurePersistentPathExists(client: ZkClient, path: String) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/util/ZkUtils.scala:234:108: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `registerBrokerInZk`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def registerBrokerInZk(zkClient: ZkClient, id: Int, host: String, port: Int, timeout: Int, jmxPort: Int) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/Partition.scala:136:73: method actorRef in object Source is deprecated (since 2.6.0): Use variant accepting completion and failure matchers instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val source: Source[(String, String, Promise[Int]), ActorRef] = Source.actorRef(100, OverflowStrategy.dropHead)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/main/scala/com/dist/simplekafka/kip500/election/Elector.scala:9:53: method mapValues in trait MapOps is deprecated (since 2.13.0): Use .view.mapValues(f). A future version will include a strict version of this method (for now, .view.mapValues(f).toMap).[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val voteCounts = votes.values.groupBy(identity).mapValues(_.size)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m77 warnings found[0m

@@ -1,0 +1,64 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/common/EmbeddedZookeeper.scala:19:18: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `shutdown`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def shutdown() {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/ControllerZookeeperFailureTests.scala:33:32: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(() ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/ControllerZookeeperFailureTests.scala:42:32: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(() ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/ControllerZookeeperFailureTests.scala:50:51: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val reelectedController = allBrokers.filter(b ⇒ b.config.brokerId == broker2.controller.currentLeader).head[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/ControllerZookeeperTest.scala:51:32: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(() ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/ControllerZookeeperTest.scala:55:44: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    socketServer1.messages.asScala.filter(m⇒ m.requestId == RequestKeys.LeaderAndIsrKey).toList.foreach(message ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/ControllerZookeeperTest.scala:55:113: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    socketServer1.messages.asScala.filter(m⇒ m.requestId == RequestKeys.LeaderAndIsrKey).toList.foreach(message ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/ControllerZookeeperTest.scala:90:32: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(() ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/ControllerZookeeperTest.scala:94:44: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    socketServer1.messages.asScala.filter(m⇒ m.requestId == RequestKeys.UpdateMetadataKey).toList.foreach(message ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/ControllerZookeeperTest.scala:94:115: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    socketServer1.messages.asScala.filter(m⇒ m.requestId == RequestKeys.UpdateMetadataKey).toList.foreach(message ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/Kip631ControllerTestUtil.scala:38:31: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(()⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/PartitionConcurrentReadWriteTest.scala:19:26: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    (1 to 100).foreach(i ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/ProducerConsumerKIP500Test.scala:28:32: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(() ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/ProducerConsumerKIP500Test.scala:56:32: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(() ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/ProducerConsumerTest.scala:26:31: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(()⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/ProducerConsumerTest.scala:33:32: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(() ⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/kip500/Kip631ControllerTest.scala:49:31: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(()⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/kip500/Kip631ControllerTest.scala:89:31: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(()⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/kip500/Kip631ControllerTest.scala:139:31: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(()⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/kip500/Kip631ControllerTest.scala:189:31: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(()⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/shyamkondisetty/Desktop/distrubutedsystems/distrib-broker/src/test/scala/com/dist/simplekafka/kip500/LeaderElectionTest.scala:36:31: The unicode arrow `⇒` is deprecated, use `=>` instead. If you still wish to display it as one character, consider using a font with programming ligatures such as Fira Code.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    TestUtils.waitUntilTrue(()⇒ {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m21 warnings found[0m

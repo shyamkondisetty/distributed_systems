@@ -1,0 +1,21 @@
+#Successful Tests
+#Sat Sep 05 14:26:20 IST 2020
+com.dist.simplekafka.CreateTopicCommandZookeeperTest=1599296179985
+com.dist.simplekafka.kip500.Kip631ControllerTest=1599296177316
+com.dist.simplekafka.SimpleKafkaApiTest=1599296168078
+com.dist.mykafka.PartitionTest=1599296177322
+com.dist.simplekafka.TopicChangeHandlerTest=1599296174060
+com.dist.simplekafka.ProducerConsumerKIP500Test=1599296173594
+com.dist.simplekafka.ServerTest=1599296166281
+com.dist.mykafka.MyZookeeperClientTest=1599296178299
+com.dist.simplekafka.BrokerChangeListenerTest=1599296178801
+com.dist.simplekafka.ControllerZookeeperTest=1599296170351
+com.dist.simplekafka.CreateTopicCommandTest=1599296168918
+com.dist.simplekafka.kip500.PartitionRecordTest=1599296161591
+com.dist.simplekafka.PartitionConcurrentReadWriteTest=1599296179634
+com.dist.simplekafka.ProducerConsumerTest=1599296164598
+com.dist.simplekafka.ControllerTest=1599296168884
+com.dist.simplekafka.kip500.ServerTest=1599296178353
+com.dist.simplekafka.PartitionReadWriteTest=1599296178602
+com.dist.simplekafka.kip500.LeaderElectionTest=1599296166555
+com.dist.simplekafka.kip500.ControllerStateTest=1599296174110
